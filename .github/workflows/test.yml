@@ -11,6 +11,6 @@ jobs:
         with:
           node-version: 18
       - name: Install dependencies
-        run: npm ci #ci-analog of install 
+        run: npm ci #ci-analog of install , but better.
       - name: Run tests
         run: npm test
